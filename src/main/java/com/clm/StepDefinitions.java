@@ -37,7 +37,7 @@ public class StepDefinitions {
         
         System.out.print(response.asString());
         response.then().assertThat.body(Matchers.equalTo(new String(Files.readAllBytes(Paths.get(System.getProperty("user.dir") + 
-         "\\src\\test\\resources\\userDetail398481.json")))));
+         "\\src\\test\\resources\\userDetails398481.json")))));
       }
 
  }
