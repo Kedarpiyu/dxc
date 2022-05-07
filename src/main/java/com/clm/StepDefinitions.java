@@ -36,7 +36,7 @@ public class StepDefinitions {
     public void response_validation() throws Exception {
         
         System.out.print(response.asString());
-        response.then().assertThat.body(Matchers.equalTo(new String(Files.readAllBytes(Paths.get(System.getProperty("user.dir") + 
+        response.then().assertThat().body(Matchers.equalTo(new String(Files.readAllBytes(Paths.get(System.getProperty("user.dir") + 
          "\\src\\test\\resources\\userDetails398481.json")))));
       }
 
