@@ -1,6 +1,6 @@
-Feature: Customer API Testing
+Feature: Nace API Testing
 
-  Scenario: Calling login API
-    Given Login API is provided
-    When User call login API
-    Then a token will be generated
+  Scenario: Calling get API details
+    Given user calling API for nace number 398481
+    When getNaceDetail API should return status 200
+    Then Response should contains nace details
