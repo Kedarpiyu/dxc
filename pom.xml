@@ -5,7 +5,15 @@
 	<groupId>com.dxc</groupId>
 	<artifactId>clm_db</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<dependencies>
+	
+        <repositories>
+          <repository>
+              <id>central</id>
+              <name>bintray</name>
+              <url>https://jcenter.bintray.com</url>
+          <repository>
+        <repositories>
+        <dependencies>
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-java</artifactId>
