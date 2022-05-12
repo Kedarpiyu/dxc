@@ -13,6 +13,13 @@
               <url>https://jcenter.bintray.com</url>
           <repository>
         <repositories>
+        <pluginRepositories>
+           <pluginRepository>
+              <id>center</id>
+              <name>bintray-plugin</name>
+              <url>https://jcenter.bintray.com</url>
+           </pluginRepository>
+        </pluginRepositories>
         <dependencies>
 		<dependency>
 			<groupId>io.cucumber</groupId>
